@@ -218,8 +218,93 @@ background-color: rgb(17, 17, 17);
 }
 /* about */
 
-
+/* login */
+#login {
+  margin-top: 50px;
+  color: rgb(0, 0, 0);
+}
+#login a {
+  text-decoration: none;
+}
+#login h5 {
+  text-align: center;
+}
+#login p {
+  text-align: center;
+}
+.bg-login {
+  background-image: url(./aset/pexels-engin-akyurt-2478343.jpg);
+  padding: 30px;
+  border-radius: 20px;
+  width: 100%;
+  box-shadow: 0px 0px 15px 10px #000000;
+}
+.bg-login .btn {
+  background: rgb(41, 11, 11);
+  border: none;
+  color: rgb(172, 23, 23);
+}
+/* login */
  
+
+/* detail */
+#detail {
+  color: white;
+}
+#detail .breadcrumb a {
+  text-decoration: none;
+  color: #a555ed;
+}
+#detail .game-image {
+  border-radius: 20px;
+  width: 100%;
+  margin-bottom: 10px;
+}
+#detail h6 {
+  color: grey;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+}
+#detail h1 {
+  font-weight: 600;
+}
+#detail table {
+  width: 100%;
+}
+#detail table th {
+  color: grey;
+}
+#detail .trigger .btn {
+  width: 100%;
+  margin-bottom: 10px;
+}
+#detail .buy {
+  background: linear-gradient(to right, #a555ed, #7800e3);
+  border: none;
+  color: white;
+}
+#detail .modal .btn {
+  background: linear-gradient(to right, #a555ed, #7800e3);
+  border: none;
+  color: white;
+  width: 50%;
+}
+#detail .modal-body {
+  padding: 30px;
+}
+#detail .modal .btn {
+  display: flex;
+  justify-content: center;
+}
+#detail .modal .btn-close {
+  margin-left: auto;
+  display: flex;
+}
+#detail .cost {
+  color: #a555ed;
+}
+/* detail */
+
 /* footer */
 footer {
   background-image: url(./aset/pexels-polina-tankilevitch-4109748.jpg);
