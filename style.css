@@ -3,11 +3,21 @@
   padding: 0;
   margin: 0;
   font-family: 'Gabarito', sans-serif;
-font-family: 'Outfit', sans-serif;
+  font-family: 'Outfit', sans-serif;
 }
- 
-body {
-  height: 2300px;
+.subtitle {
+  text-transform: uppercase;
+  color: grey;
+  letter-spacing: 5px;
+}
+
+body a {
+  text-decoration: none;
+  color: white;
+}
+
+a:hover {
+  color: #a555ed;
 }
 
 .header
@@ -99,19 +109,19 @@ background-color: rgb(17, 17, 17);
   
   
 
-.about-img {
+.history-img {
   padding: 100px;
   
 }
 
-#about p {
+#history p {
   
   text-align: center;
   color: white;
 }
 
 
-#about h3 {
+#history h3 {
   text-transform: uppercase;
   padding-top: 50px;
   text-align: center;
@@ -119,14 +129,14 @@ background-color: rgb(17, 17, 17);
 
 }
 
-#about img{
+#history img{
   margin: 50px;
   width: 100%;
   padding: 0;
   background-color: white;
   border: 1px solid whitesmoke;
  }
- #about .btn {
+ #history .btn {
   margin-left: 320px;
   font-size: medium;
   color: white;
@@ -179,11 +189,42 @@ background-color: rgb(17, 17, 17);
   color: white;
 }
 
+
+/* about */
+#about {
+  color: white;
+  margin-top: 30px;
+}
+#about logo {
+  background-color: white;
+  border-radius: 50px;
+  padding: 10px;
+  width: 175px;
+  margin-top: 150px;
+}
+#about text {
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  color: white;
+}
+#about h1 {
+  padding: 40px;
+  margin-top: 80px;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  font-weight: 600;
+  margin: 0;
+}
+/* about */
+
+
+ 
 /* footer */
 footer {
   background-image: url(./aset/pexels-polina-tankilevitch-4109748.jpg);
   width: 100%;
-  height: 170px;
+  height: 150px;
   color: white;
   margin-top: 50px;
   padding: 30px 30px;
@@ -200,12 +241,13 @@ footer a {
 footer a:hover {
   color: #a555ed;
 }
-footer img {
+footer .credit-card img {
 width: 15%;
 }
 footer span {
   width: 30%;
   color: rgb(255, 255, 255);
-  
  }
  
+
+
