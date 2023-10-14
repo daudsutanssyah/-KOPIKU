@@ -1,0 +1,181 @@
+
+* {
+  padding: 0;
+  margin: 0;
+  font-family: 'Gabarito', sans-serif;
+font-family: 'Outfit', sans-serif;
+}
+ 
+body {
+  height: 2200px;
+}
+
+.header
+{
+	width: 100%;
+	height: 100vh;
+	background: url(./aset/bg.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+/* navbar */
+
+
+.navbar .expand-lg {
+  color: whitesmoke;
+}
+
+.navbar .navbar-brand img {
+  background-color: white;
+  border-radius: 25px;
+  padding: 5px 5px 5px 5px;
+  width: 75px;
+  }
+  .navbar .navbar-brand {
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    color: white;
+  }
+
+  .navbar .navbar-nav {
+    margin-left: auto;
+    
+  }
+  
+  .navbar .btn {
+    background: blanchedalmond
+    width: 130px;
+    font-weight: 600;
+  }
+  
+  .navbar .btn:hover {
+    background: none;
+    border: 1px solid white;
+    color: whitesmoke;
+  }
+  
+  
+  .navbar .nav-link {
+    margin-right: 30px;
+  }
+  
+  .navbar .nav-link:hover {
+    color: white;
+  }
+  
+  /* navbar */
+  
+  /* hero section */
+
+.hero .content {
+  padding: 150px;
+  max-width: 60rem;
+}
+.hero .content h1 {
+  font-size: 3em;
+  color: white;
+  text-shadow: 1px 1px 3px black;
+  margin-left: 130px;
+}
+.hero .content h1 span {
+  color: brown;
+}
+.hero .content p {
+  font-size: large;
+  margin-left: 130px;
+  color: white;
+  font-weight: 100;
+}
+.hero .content .btn {
+  margin-left: 320px;
+  font-size: medium;
+  color: white;
+background-color: rgb(17, 17, 17);
+  border-radius: 10px;
+  border: 1px solid white;
+}
+  /* hero section */
+  
+  
+
+.about-img {
+  padding: 100px;
+  
+}
+
+#about p {
+  
+  text-align: center;
+  color: white;
+}
+
+
+#about h3 {
+  text-transform: uppercase;
+  padding-top: 50px;
+  text-align: center;
+  color: white;
+
+}
+
+#about img{
+  margin: 50px;
+  width: 100%;
+  padding: 0;
+  background-color: white;
+  border: 1px solid whitesmoke;
+ }
+ #about .btn {
+  margin-left: 320px;
+  font-size: medium;
+  color: white;
+  background-color: rgb(17, 17, 17);
+  border-radius: 10px;
+  border: 1px solid white;
+ }
+ 
+ .products {
+  text-align: center;
+  align-items: center;
+  margin-top: 15px;
+  color: #ffffff;
+}
+
+.products p {
+  color: #cdcdcd;
+}
+
+.products .card h5 {
+  color: #000000;
+}
+
+.products .card {
+  color: rgb(0, 0, 0);
+  justify-content: center;
+  text-align: center;
+  border-radius: 20px;
+  border-color: white;
+  margin-top: 20px;
+  width: 200px;
+  
+  margin-left: 350px;
+}
+
+
+.products .btn {
+  background-color: white;
+  width: 150px;
+  font-weight: 600;
+  border-radius: 20px;
+  color: #1D1D1D;
+  text-align: center;
+  align-items: center;
+}
+
+.products .btn:hover {
+  background: none;
+  border: 1px solid #ffffff;
+  color: white;
+}
+
