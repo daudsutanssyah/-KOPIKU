@@ -7,7 +7,7 @@ font-family: 'Outfit', sans-serif;
 }
  
 body {
-  height: 2200px;
+  height: 2300px;
 }
 
 .header
@@ -179,3 +179,33 @@ background-color: rgb(17, 17, 17);
   color: white;
 }
 
+/* footer */
+footer {
+  background-image: url(./aset/pexels-polina-tankilevitch-4109748.jpg);
+  width: 100%;
+  height: 170px;
+  color: white;
+  margin-top: 50px;
+  padding: 30px 30px;
+}
+footer h6 {
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  color: rgb(255, 255, 255);
+}
+footer a {
+  text-decoration: none;
+  color: white;
+}
+footer a:hover {
+  color: #a555ed;
+}
+footer img {
+width: 15%;
+}
+footer span {
+  width: 30%;
+  color: rgb(255, 255, 255);
+  
+ }
+ 
